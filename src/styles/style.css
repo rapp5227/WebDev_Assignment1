@@ -11,22 +11,25 @@ html
 }
 
 a:link 		{color: royalblue;}
-a:visited 	{color: slateblue;}
+a:visited 	{color: royalblue;}
 a:hover 	{color: tomato;}
 a:focus 	{color: tomato;}
 a:active	{color: whitesmoke;}
 
 #navigation
 {
-	/* overflow: hidden; */
-	position: fixed;
 	bottom: 0;
-	width: 75%;
-	margin: 5% auto;
-	background-color: darkslategrey;
+	margin: auto;
+	position: fixed;
+	width: 100%;
+	height: 2rem;
 }
 
-.navLink
+.navlinkContainer
 {
-	margin-right: 20%;
+	bottom: 0;
+	float: left;
+	position: relative;
+	text-align: center;
+	width: 24.5%;
 }
