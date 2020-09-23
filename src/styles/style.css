@@ -1,0 +1,17 @@
+*
+{
+	background-color: black;
+	color: lightgray;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html
+{
+	font-size: 100%;
+}
+
+a:link 		{color: royalblue;}
+a:visited 	{color: slateblue;}
+a:hover 	{color: tomato;}
+a:focus 	{color: tomato;}
+a:active	{color: whitesmoke;}
