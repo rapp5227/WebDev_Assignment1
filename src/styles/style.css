@@ -19,10 +19,12 @@ a:active	{color: whitesmoke;}
 #navigation
 {
 	bottom: 0;
-	margin: auto;
+	margin: 0;
 	position: fixed;
 	width: 100%;
 	height: 2rem;
+	background-color: rgb(27, 26, 26);
+	left: 0;
 }
 
 .navlinkContainer
@@ -31,5 +33,13 @@ a:active	{color: whitesmoke;}
 	float: left;
 	position: relative;
 	text-align: center;
-	width: 24.5%;
+	width: 24%; /*TODO fix this when border is removed*/
+	padding-top: .2rem;
+	background-color: rgb(27, 26, 26);
+	border: 1px solid white;
+}
+
+.navLink
+{
+	background-color: inherit;
 }
