@@ -1,6 +1,5 @@
 *
 {
-	background-color: black;
 	color: lightgray;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -8,6 +7,12 @@
 html
 {
 	font-size: 100%;
+	background-color: black;
+}
+
+li
+{
+	line-height: 1.5rem;
 }
 
 a:link 		{color: royalblue;}
