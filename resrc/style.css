@@ -12,7 +12,7 @@ html
 }
 
 a:link 		{color: royalblue;}
-a:visited 	{color: royalblue;}
+a:visited 	{color: slateblue;}
 a:hover 	{color: tomato;}
 a:focus 	{color: tomato;}
 a:active	{color: whitesmoke;}
