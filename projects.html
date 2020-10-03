@@ -22,9 +22,11 @@
 			{
 				font-size: 1rem;
 			}
-			#tcImage
+			.image
 			{
-				float: right;
+				clear: right;
+				margin-top: 1rem;
+				max-width: 75vw;
 			}
 			#filexImage
 			{
@@ -39,7 +41,7 @@
 			<li>
 				<h2>TommieCoin Wallet</h2>
 				<div id = "tommiecoin" class = "projectBody">
-					<img src = "resrc/images/cryptocurrency.jpg" alt = "TommieCoin image" id = "tcImage"/>
+					<img src = "resrc/images/cryptocurrency.jpg" alt = "TommieCoin" id = "tcImage" class = "image"/>
 					<p>
 						As a final project in Advanced Information Security, I created a command-line wallet application for a hypothetical non-distributed cryptocurrency called TommieCoin created by Dr. Scott Yilek. This application included functionality for the server admin to create new currency, as well as for users to transact and mine their own TommieCoin.
 					</p>
@@ -49,28 +51,25 @@
 			<li>
 				<h2>File Explorer</h2>
 				<div id = "filex" class = "projectBody">
+					<img src = "resrc/images/filex.png"/ id = "filexImage" class = "image" alt = "File Explorer" class="image">
 
-					<img src = "resrc/images/filex.png"/ id = "filexImage">
+					<p>
+						As a final project in my Operating Systems course, I created a lightweight file explorer GUI with the guidance of Dr. Tommy Marrinan. It uses the SDL2 graphics library to display a directory's contents using a paging system, and users can click on these icons to navigate into them or open files using the system default application.
+					</p>
 				</div>
 			</li>
 			<li>
 				<h2>Criminal Justice Capstone (Ongoing)</h2>
 				<div id = "capstone" class = "projectBody">
+					<img src = "resrc/images/womens_advocates.jpg" alt = "Women's Advocates logo" class = "image" id = "womensAdvocatesImage"/>
+					<p>
 					As part of the capstone course for criminal justice at St. Thomas, I am currently participating in a service project benefitting the <a href = "https://www.wadvocates.org/" target = "_blank">Women's Advocates</a> domestic violence shelter in St. Paul. Specifically, I am working with a small team to develop a report on their aftercare program, as well as creating resources that can be shared with other shelters to provide guidance for them to set up their own systems for aftercare.
-
-					<img src = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.opus-group.com%2FMedia%2FArticleImages%2F4084_1000x667.jpg&f=1&nofb=1"/>
+					</p>
 				</div>
 			</li>
 		</ol>
 
-		<!--
-			Possible project ideas:
-				BQUE or Kustomer dashboard
-				A Christmas concert
-				Old CJ papers (or perhaps seminar)
-				Justice project for CJ seminar?
-
-		-->
+		<div id = "filler" style = "height: 10rem;"></div> <!--creates space between bottom of resume and nav bar-->
 
 		<div id = "navigation">
 			<div class = navlinkContainer><a class = "navLink" href = "index.html">Home</a></div>
