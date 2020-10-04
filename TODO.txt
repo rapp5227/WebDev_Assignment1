@@ -1,2 +1,0 @@
--mobile for projects is currently scuffed
--see about centering contact info on mobile in resume
